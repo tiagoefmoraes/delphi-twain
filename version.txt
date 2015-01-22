@@ -1,0 +1,4 @@
+DELPHITWAIN VERSION INFORMATION
+===============================
+
+1.5 (2014/06/25)

@@ -1,0 +1,42 @@
+DELPHITWAIN CHANGE LOG
+======================
+
+2013/04/29
+
+Typo fixes in language constants; cosmetic fixes.
+Lazarus fixes: fix for unloading library cancelling acquire window on Lazarus.
+(Thanks to Reinier.)
+
+
+
+2013/12/21
+
+Default TransferMode set to ttmNative.
+Color bug fix for TransferMode = ttmMemory
+
+
+
+2013/11/05
+
+FireMonkey support (XE2, XE3, XE4, XE5) - thanks to Frediano Palazzi for financially supporting this modification.
+
+TDelphiTwain is not a TComponent descendand any more - you have to use it from code only and free it by yourself.
+
+For FireMonkey add DelphiTwain and DelphiTwain_FMX units to the uses clause. 
+For VCL add DelphiTwain and DelphiTwain_VCL to the uses clause.
+
+
+
+2013/10/21 - Fixed function FloatToFix32 - thanks to Chad Berchek
+
+2013/08/18 - New method OnTransferComplete: fired when all documents are
+  scanned or the scan is canceled. Thanks to Andrei Galatyn.
+
+2013/07/26 - Color problems solved (thanks to Marco & Christian).
+  TWAIN drivers did not respond - now both WIA and TWAIN can be used.
+
+2012/11/01 - Ondrej Pokorny: small changes for Lazarus and 64bit compiler
+
+2009/11/10 - Some changes to make it work in Delphi 2009, and above
+
+2004/01/20 - Some updates and bug fixes by Nemeth Peter
