@@ -14,6 +14,9 @@
   {$IF CompilerVersion >= 20}
     {$DEFINE DELPHI_2009_UP}
   {$IFEND}
+  {$IF CompilerVersion >= 22}
+    {$DEFINE DELPHI_XE_UP}
+  {$IFEND}
   {$IF CompilerVersion >= 23}
     {$DEFINE DELPHI_XE2_UP}
   {$IFEND}

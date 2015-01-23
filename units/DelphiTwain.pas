@@ -1550,7 +1550,7 @@ begin
         //and not a wired in value!
         //If not, you may get error on strtofloat
         //original: Return := IntToStr(Whole) + ',' + IntToStr(Frac);
-        Return := IntToStr(Whole) + {%H-}{$IFDEF DELPHI_XE2_UP}FormatSettings.{$ENDIF}DecimalSeparator + IntToStr(Frac);
+        Return := IntToStr(Whole) + {%H-}{$IFDEF DELPHI_XE_UP}FormatSettings.{$ENDIF}DecimalSeparator + IntToStr(Frac);
     {String types, which are all ended by a null char (#0)}
     TWTY_STR32,
     TWTY_STR64,
